@@ -10,13 +10,16 @@ const ingredients = [
 const list = document.querySelector(`ul`);
 
 
+
 ingredients.forEach(function(ingredient){
   const listItem = document.createElement("li");
   listItem.textContent = ingredient;
   listItem.classList.add("item");
-  list.append(listItem);
 
-console.log(listItem);
+const allLi = listItem;
+list.append(allLi);
 });
+
+
 
 

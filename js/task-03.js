@@ -19,7 +19,7 @@ const gallery = document.querySelector(`.gallery`);
 
 images.forEach(function(image){
 const imageEl = `<li>
-<img src=${image.url} alt=${image.alt} width = 500px>
+<img src="${image.url}" alt="${image.alt}" width ="500px">
 </li>`;
 
 
